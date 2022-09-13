@@ -6,6 +6,12 @@ class Netclient < Formula
   license "SSPL-1.0"
   head "https://github.com/gravitl/netmaker.git", branch: "master"
 
+  bottle do
+    root_url "https://github.com/ViRb3/homebrew-tap/releases/download/netclient-0.15.1"
+    sha256 cellar: :any_skip_relocation, monterey:     "172d956951888b6a79ec807ed46cab62728444cfba237afb03bd57dadb303b52"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "68d11e73c4293067ace922d40be88ee91cdd56d5b45f88db98a9bd6575eebea1"
+  end
+
   depends_on "go" => :build
   depends_on "wireguard-tools"
 
