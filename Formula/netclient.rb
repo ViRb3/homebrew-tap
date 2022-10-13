@@ -7,10 +7,9 @@ class Netclient < Formula
   head "https://github.com/gravitl/netmaker.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/ViRb3/homebrew-tap/releases/download/netclient-0.15.2"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "19817160f1c35ede6b8a0b72abc97221c7f2d234eb633be52e3327574fadfcaf"
-    sha256 cellar: :any_skip_relocation, monterey:       "8fa5c6671253b4544a702312651e151d95a65538714de7a7a986d9ea7d3fc1c6"
-    sha256 cellar: :any_skip_relocation, x86_64_linux:   "4f1a8db3e0bb2ddb959f6b506bb43698920d98777f0e2de9fbe3bb3452444cc9"
+    root_url "https://github.com/ViRb3/homebrew-tap/releases/download/netclient-0.16.1"
+    sha256 cellar: :any_skip_relocation, monterey:     "1738ef5a475b04d5b6d24e50c58d9fe9d784cc10b9fb6d604ce3ae8d919cf6db"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "092473f675ae46d1a62ed76ec913383ad1519c0ac626413b203447f4d7ea9b73"
   end
 
   depends_on "go" => :build
