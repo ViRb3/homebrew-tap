@@ -1,8 +1,8 @@
 class Netclient < Formula
   desc "Automate fast, secure, and distributed virtual networks using WireGuard"
   homepage "https://netmaker.io"
-  url "https://github.com/gravitl/netmaker/archive/v0.16.1.tar.gz"
-  sha256 "fb95defcb86ef2b9d0c523cbce343c13a3a6579a8be7a4e475f4f176c9681d63"
+  url "https://github.com/gravitl/netmaker/archive/v0.16.3.tar.gz"
+  sha256 "c658355e2e7c14d41becd74b4cc044ec91a56100ba251bde981d2ff25eac240b"
   license "SSPL-1.0"
   head "https://github.com/gravitl/netmaker.git", branch: "master"
 
